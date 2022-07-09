@@ -3,9 +3,9 @@ import Head from "next/head";
 const CustomHead = ({ title }) => {
 	const getTitle = () => {
 		if (title) {
-			return `Hayk - ${title}`;
+			return `Laura - ${title}`;
 		}
-		return "Hayk";
+		return "Laura Cervantes";
 	};
 
 	return (
